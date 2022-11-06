@@ -11,7 +11,7 @@ function onClickEvent() {
 
 function nestedCall(count) {
   console.group(`nestedCall`);
-  document.querySelector("body > ul > li:nth-child(2)").remove();
+  //document.querySelector("body > ul > li:nth-child(2)").remove();
   console.log(`Reached nestedCall`);
   console.groupEnd(`nestedCall`);
   return count + 7;
