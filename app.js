@@ -6,6 +6,8 @@ function onClickEvent() {
 }
 
 function nestedCall(count) {
+  
+  document.querySelector("body > ul > li:nth-child(2)").remove();
   console.log(`Reached nestedCall`);
   return count + 6;
 }
